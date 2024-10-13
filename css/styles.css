@@ -720,7 +720,6 @@ button {
 }
 .footer-container {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     row-gap: 72px;
 }
@@ -1081,7 +1080,7 @@ margin-bottom: 16px;
 
 .review-form-custom-checkbox {
     display: inline-flex;
-    flex-shrink: inherit;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     width: 16px;
